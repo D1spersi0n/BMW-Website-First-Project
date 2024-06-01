@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 10px;
+}
+body{
+    background-color: black;
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+}
+header{
+    padding: 10px 5%;
+    top:0;
+    left:0;
+}
+nav>a{
+    text-decoration: none;
+    color: white;
+    padding-left: 70px;
+    font-weight: 600;
+}
+header>*{
+    display: inline-block;
+}
+.void{
+    width:1400px;
+}
+.rectangle {
+    width: 127px;
+    height: 49px;
+    background: #013861;
+    border-radius: 5px;
+    position: absolute;
+    top: -65px
+}
+header>a{
+color: white;
+text-align: center;
+position: absolute;
+}
+.shadow{
+    width: 137px;
+    height: 53px;
+    background: #013861;
+    border-radius: 5px;
+    position: absolute;
+    top: -65px;
+    margin-left: 5px;
+    filter: blur(7.5px);
+    opacity: 0.6;
+}
+#BMWM8{
+    color: white;
+    font-size: 75px;
+    margin-left: 200px;
+    margin-top: 150px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#M8{
+    width: 1042px;
+    height: auto;
+    position: absolute;
+    right: -10px;
+    top: 211px;
+}
+.space{
+    height: 200px;
+}
+#SpeedM8{
+    color: white;
+    position: absolute;
+    left: 700px;
+    top: 690px;
+}
+#SpeedM8Km{
+    font-size: 22px;
+}
+#EngineM8{
+    color: white;
+    position: absolute;
+    left: 1000px;
+    top: 690px;
+}
+#EngineM8L{
+    font-size: 22px;
+}
+#PowerM8{
+    color: white;
+    position: absolute;
+    left: 1300px;
+    top: 690px;
+}
+#PowerM8BHP{
+    font-size: 22px;
+}
+#MassM8{
+    color: white;
+    position: absolute;
+    left: 1600px;
+    top: 690px;
+}
+#MassM8KG{
+    font-size: 22px;
+}
+.LearnMoreBox{
+    width: 126px;
+    height: 35px;
+    background: #001C31;
+    border-radius: 5px;
+    position: absolute;
+    left: 200px;
+    top: 710px;
+}
+.LearnMore{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    position: absolute;
+    top: -4px;
+}
+#BMWM2{
+    color: white;
+    font-size: 75px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1000px;
+    left: 1300px;
+}
+#M2{
+    width: 1330px;
+    height: auto;
+    position: absolute;
+    top: 811px;
+}
+#SpeedM2{
+    color: white;
+    position: absolute;
+    top: 1500px;
+    left: 700px;
+}
+#SpeedM2Km{
+    font-size: 22px;
+}
+#EngineM2{
+    color: white;
+    position: absolute;
+    left: 1000px;
+    top: 1500px;
+}
+#EngineM2L{
+    font-size: 22px;
+}
+#PowerM2{
+    color: white;
+    position: absolute;
+    left: 1300px;
+    top: 1500px;
+}
+#PowerM2BHP{
+    font-size: 22px;
+}
+#MassM2{
+    color: white;
+    position: absolute;
+    left: 1600px;
+    top: 1500px;
+}
+#MassM2KG{
+    font-size: 22px;
+}
+.LearnMoreBoxM2{
+    width: 126px;
+    height: 35px;
+    background: #001C31;
+    border-radius: 5px;
+    position: absolute;
+    left: 200px;
+    top: 1520px;
+}
+#BMWM7{
+    color: white;
+    font-size: 75px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 1800px;
+    left: 200px;
+}
+#M7{
+    width: 1043px;
+    height: auto;
+    position: absolute;
+    top: 1700px;
+    right: -10px;
+}
+#SpeedM7{
+    color: white;
+    position: absolute;
+    top: 2200px;
+    left: 700px;
+}
+#SpeedM7Km{
+    font-size: 22px;
+}
+#EngineM7{
+    color: white;
+    position: absolute;
+    left: 1000px;
+    top: 2200px;
+}
+#EngineM7L{
+    font-size: 22px;
+}
+#PowerM7{
+    color: white;
+    position: absolute;
+    left: 1300px;
+    top: 2200px;
+}
+#PowerM7BHP{
+    font-size: 22px;
+}
+#MassM7{
+    color: white;
+    position: absolute;
+    left: 1600px;
+    top: 2200px;
+}
+#MassM7KG{
+    font-size: 22px;
+}
+.LearnMoreBoxM7{
+    width: 126px;
+    height: 35px;
+    background: #001C31;
+    border-radius: 5px;
+    position: absolute;
+    left: 200px;
+    top: 2220px;
+}
+footer{
+    background-color: #151515;
+    position: absolute;
+    height: 121px;
+    width: 1903px;
+    top: 2500px;
+    left: -10px;
+}
+#footerBMW{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    left: 300px;
+    bottom: 20px;
+}
+#Contacts{
+position: absolute;
+left: 800px;
+bottom: 30px;
+font-size: 20px;
+color: white;
+text-decoration: none;
+font-weight: 600;
+}
+#Copyright{
+    position: absolute;
+    left: 1100px;
+    bottom: 30px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+#Politics{
+    position: absolute;
+    left: 1400px;
+    bottom: 30px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
